@@ -1,0 +1,38 @@
+[
+  {
+    "id": "CPCB_DEL_Anand_Vihar",
+    "name": "Anand Vihar",
+    "city": "Delhi NCR",
+    "lat": 28.65,
+    "lon": 77.315,
+    "pm10": 312.5,
+    "dcf": 0.7768
+  },
+  {
+    "id": "CPCB_DEL_ITO",
+    "name": "ITO",
+    "city": "Delhi NCR",
+    "lat": 28.628,
+    "lon": 77.241,
+    "pm10": 278.4,
+    "dcf": 0.8011
+  },
+  {
+    "id": "CPCB_AMD_Maninagar",
+    "name": "Maninagar",
+    "city": "Ahmedabad",
+    "lat": 22.995,
+    "lon": 72.603,
+    "pm10": 242.0,
+    "dcf": 0.8271
+  },
+  {
+    "id": "CPCB_AMD_Pirana",
+    "name": "Pirana",
+    "city": "Ahmedabad",
+    "lat": 22.98,
+    "lon": 72.565,
+    "pm10": 285.0,
+    "dcf": 0.7964
+  }
+]

@@ -62,6 +62,17 @@ def prepare_data_for_ml():
     wind_speed = np.sqrt(u10_mean**2 + v10_mean**2)
     e_a = 6.11 * (10 ** (7.5 * (d2m_mean - 273.15) / (237.3 + (d2m_mean - 273.15))))
 
+    print(" -> Extracting Air Quality Pollution variables (PM2.5, PM10, NO2)...")
+    aq_file = os.path.join(base_dir, "air_quality", "air_quality_openmeteo_Ahmedabad.csv")
+    aq_df = pd.read_csv(aq_file)
+    pm25_val = aq_df['PM25'].mean()
+    pm10_val = aq_df['PM10'].mean()
+    no2_val = aq_df['NO2'].mean()
+    
+    pm25_array = np.full_like(t_s, pm25_val, dtype=np.float32)
+    pm10_array = np.full_like(t_s, pm10_val, dtype=np.float32)
+    no2_array = np.full_like(t_s, no2_val, dtype=np.float32)
+
     print(" -> Rasterizing true building and street geometries...")
     try:
         gdf = gpd.read_file(gpkg_path, rows=5000)
@@ -156,7 +167,8 @@ def prepare_data_for_ml():
     print("Step 2: Building Feature Matrix (Flattening spatial arrays)...")
     df = build_feature_matrix(
         t_s, albedo, r_n_indep, ndvi, ndbi, ndmi, ndvi_mean, albedo_mean, 
-        true_svf, z_0, dist_water, dist_veg, c_g, bsi, fvc, pai, pop_array, road_density, ghsl_built_array
+        true_svf, z_0, dist_water, dist_veg, c_g, bsi, fvc, pai, pop_array, road_density, ghsl_built_array,
+        pm25_array, pm10_array, no2_array
     )
     
     # Generate Spatial Coordinates to help model learn urban clustering

@@ -1,0 +1,1955 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_0_0",
+        "city": "Ahmedabad",
+        "sevi": 32.75,
+        "base_sevi": 32.75,
+        "base_lst_excess": 8.4,
+        "ghsl_height": 8.87,
+        "pm10_baseline": 308.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5234,
+              22.974500000000003
+            ],
+            [
+              72.53939999999999,
+              22.974500000000003
+            ],
+            [
+              72.53939999999999,
+              22.9905
+            ],
+            [
+              72.5234,
+              22.9905
+            ],
+            [
+              72.5234,
+              22.974500000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_0_1",
+        "city": "Ahmedabad",
+        "sevi": 30.25,
+        "base_sevi": 30.25,
+        "base_lst_excess": 7.68,
+        "ghsl_height": 15.33,
+        "pm10_baseline": 212.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5234,
+              22.994500000000002
+            ],
+            [
+              72.53939999999999,
+              22.994500000000002
+            ],
+            [
+              72.53939999999999,
+              23.0105
+            ],
+            [
+              72.5234,
+              23.0105
+            ],
+            [
+              72.5234,
+              22.994500000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_0_2",
+        "city": "Ahmedabad",
+        "sevi": 41.4,
+        "base_sevi": 41.4,
+        "base_lst_excess": 8.11,
+        "ghsl_height": 24.18,
+        "pm10_baseline": 253.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5234,
+              23.0145
+            ],
+            [
+              72.53939999999999,
+              23.0145
+            ],
+            [
+              72.53939999999999,
+              23.0305
+            ],
+            [
+              72.5234,
+              23.0305
+            ],
+            [
+              72.5234,
+              23.0145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_0_3",
+        "city": "Ahmedabad",
+        "sevi": 55.65,
+        "base_sevi": 55.65,
+        "base_lst_excess": 7.03,
+        "ghsl_height": 12.75,
+        "pm10_baseline": 222.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5234,
+              23.0345
+            ],
+            [
+              72.53939999999999,
+              23.0345
+            ],
+            [
+              72.53939999999999,
+              23.0505
+            ],
+            [
+              72.5234,
+              23.0505
+            ],
+            [
+              72.5234,
+              23.0345
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_0_4",
+        "city": "Ahmedabad",
+        "sevi": 67.7,
+        "base_sevi": 67.7,
+        "base_lst_excess": 7.16,
+        "ghsl_height": 26.41,
+        "pm10_baseline": 290.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5234,
+              23.0545
+            ],
+            [
+              72.53939999999999,
+              23.0545
+            ],
+            [
+              72.53939999999999,
+              23.0705
+            ],
+            [
+              72.5234,
+              23.0705
+            ],
+            [
+              72.5234,
+              23.0545
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_1_0",
+        "city": "Ahmedabad",
+        "sevi": 43.21,
+        "base_sevi": 43.21,
+        "base_lst_excess": 5.95,
+        "ghsl_height": 22.47,
+        "pm10_baseline": 249.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5434,
+              22.974500000000003
+            ],
+            [
+              72.5594,
+              22.974500000000003
+            ],
+            [
+              72.5594,
+              22.9905
+            ],
+            [
+              72.5434,
+              22.9905
+            ],
+            [
+              72.5434,
+              22.974500000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_1_1",
+        "city": "Ahmedabad",
+        "sevi": 51.08,
+        "base_sevi": 51.08,
+        "base_lst_excess": 5.88,
+        "ghsl_height": 21.33,
+        "pm10_baseline": 304.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5434,
+              22.994500000000002
+            ],
+            [
+              72.5594,
+              22.994500000000002
+            ],
+            [
+              72.5594,
+              23.0105
+            ],
+            [
+              72.5434,
+              23.0105
+            ],
+            [
+              72.5434,
+              22.994500000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_1_2",
+        "city": "Ahmedabad",
+        "sevi": 71.94,
+        "base_sevi": 71.94,
+        "base_lst_excess": 6.99,
+        "ghsl_height": 11.67,
+        "pm10_baseline": 240.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5434,
+              23.0145
+            ],
+            [
+              72.5594,
+              23.0145
+            ],
+            [
+              72.5594,
+              23.0305
+            ],
+            [
+              72.5434,
+              23.0305
+            ],
+            [
+              72.5434,
+              23.0145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_1_3",
+        "city": "Ahmedabad",
+        "sevi": 32.17,
+        "base_sevi": 32.17,
+        "base_lst_excess": 6.25,
+        "ghsl_height": 20.85,
+        "pm10_baseline": 236.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5434,
+              23.0345
+            ],
+            [
+              72.5594,
+              23.0345
+            ],
+            [
+              72.5594,
+              23.0505
+            ],
+            [
+              72.5434,
+              23.0505
+            ],
+            [
+              72.5434,
+              23.0345
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_1_4",
+        "city": "Ahmedabad",
+        "sevi": 43.9,
+        "base_sevi": 43.9,
+        "base_lst_excess": 4.94,
+        "ghsl_height": 19.3,
+        "pm10_baseline": 321.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5434,
+              23.0545
+            ],
+            [
+              72.5594,
+              23.0545
+            ],
+            [
+              72.5594,
+              23.0705
+            ],
+            [
+              72.5434,
+              23.0705
+            ],
+            [
+              72.5434,
+              23.0545
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_2_0",
+        "city": "Ahmedabad",
+        "sevi": 40.35,
+        "base_sevi": 40.35,
+        "base_lst_excess": 8.09,
+        "ghsl_height": 14.19,
+        "pm10_baseline": 212.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5634,
+              22.974500000000003
+            ],
+            [
+              72.57939999999999,
+              22.974500000000003
+            ],
+            [
+              72.57939999999999,
+              22.9905
+            ],
+            [
+              72.5634,
+              22.9905
+            ],
+            [
+              72.5634,
+              22.974500000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_2_1",
+        "city": "Ahmedabad",
+        "sevi": 34.82,
+        "base_sevi": 34.82,
+        "base_lst_excess": 6.77,
+        "ghsl_height": 14.41,
+        "pm10_baseline": 197.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5634,
+              22.994500000000002
+            ],
+            [
+              72.57939999999999,
+              22.994500000000002
+            ],
+            [
+              72.57939999999999,
+              23.0105
+            ],
+            [
+              72.5634,
+              23.0105
+            ],
+            [
+              72.5634,
+              22.994500000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_2_2",
+        "city": "Ahmedabad",
+        "sevi": 61.07,
+        "base_sevi": 61.07,
+        "base_lst_excess": 4.82,
+        "ghsl_height": 13.56,
+        "pm10_baseline": 297.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5634,
+              23.0145
+            ],
+            [
+              72.57939999999999,
+              23.0145
+            ],
+            [
+              72.57939999999999,
+              23.0305
+            ],
+            [
+              72.5634,
+              23.0305
+            ],
+            [
+              72.5634,
+              23.0145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_2_3",
+        "city": "Ahmedabad",
+        "sevi": 44.5,
+        "base_sevi": 44.5,
+        "base_lst_excess": 4.91,
+        "ghsl_height": 11.05,
+        "pm10_baseline": 234.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5634,
+              23.0345
+            ],
+            [
+              72.57939999999999,
+              23.0345
+            ],
+            [
+              72.57939999999999,
+              23.0505
+            ],
+            [
+              72.5634,
+              23.0505
+            ],
+            [
+              72.5634,
+              23.0345
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_2_4",
+        "city": "Ahmedabad",
+        "sevi": 25.63,
+        "base_sevi": 25.63,
+        "base_lst_excess": 6.13,
+        "ghsl_height": 11.42,
+        "pm10_baseline": 185.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5634,
+              23.0545
+            ],
+            [
+              72.57939999999999,
+              23.0545
+            ],
+            [
+              72.57939999999999,
+              23.0705
+            ],
+            [
+              72.5634,
+              23.0705
+            ],
+            [
+              72.5634,
+              23.0545
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_3_0",
+        "city": "Ahmedabad",
+        "sevi": 40.72,
+        "base_sevi": 40.72,
+        "base_lst_excess": 6.27,
+        "ghsl_height": 19.87,
+        "pm10_baseline": 288.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5834,
+              22.974500000000003
+            ],
+            [
+              72.59939999999999,
+              22.974500000000003
+            ],
+            [
+              72.59939999999999,
+              22.9905
+            ],
+            [
+              72.5834,
+              22.9905
+            ],
+            [
+              72.5834,
+              22.974500000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_3_1",
+        "city": "Ahmedabad",
+        "sevi": 80.06,
+        "base_sevi": 80.06,
+        "base_lst_excess": 5.01,
+        "ghsl_height": 16.67,
+        "pm10_baseline": 312.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5834,
+              22.994500000000002
+            ],
+            [
+              72.59939999999999,
+              22.994500000000002
+            ],
+            [
+              72.59939999999999,
+              23.0105
+            ],
+            [
+              72.5834,
+              23.0105
+            ],
+            [
+              72.5834,
+              22.994500000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_3_2",
+        "city": "Ahmedabad",
+        "sevi": 70.42,
+        "base_sevi": 70.42,
+        "base_lst_excess": 5.16,
+        "ghsl_height": 14.25,
+        "pm10_baseline": 300.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5834,
+              23.0145
+            ],
+            [
+              72.59939999999999,
+              23.0145
+            ],
+            [
+              72.59939999999999,
+              23.0305
+            ],
+            [
+              72.5834,
+              23.0305
+            ],
+            [
+              72.5834,
+              23.0145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_3_3",
+        "city": "Ahmedabad",
+        "sevi": 44.07,
+        "base_sevi": 44.07,
+        "base_lst_excess": 5.73,
+        "ghsl_height": 16.79,
+        "pm10_baseline": 331.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5834,
+              23.0345
+            ],
+            [
+              72.59939999999999,
+              23.0345
+            ],
+            [
+              72.59939999999999,
+              23.0505
+            ],
+            [
+              72.5834,
+              23.0505
+            ],
+            [
+              72.5834,
+              23.0345
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_3_4",
+        "city": "Ahmedabad",
+        "sevi": 56.3,
+        "base_sevi": 56.3,
+        "base_lst_excess": 3.53,
+        "ghsl_height": 11.09,
+        "pm10_baseline": 304.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5834,
+              23.0545
+            ],
+            [
+              72.59939999999999,
+              23.0545
+            ],
+            [
+              72.59939999999999,
+              23.0705
+            ],
+            [
+              72.5834,
+              23.0705
+            ],
+            [
+              72.5834,
+              23.0545
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_4_0",
+        "city": "Ahmedabad",
+        "sevi": 69.47,
+        "base_sevi": 69.47,
+        "base_lst_excess": 8.32,
+        "ghsl_height": 18.59,
+        "pm10_baseline": 339.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.60340000000001,
+              22.974500000000003
+            ],
+            [
+              72.6194,
+              22.974500000000003
+            ],
+            [
+              72.6194,
+              22.9905
+            ],
+            [
+              72.60340000000001,
+              22.9905
+            ],
+            [
+              72.60340000000001,
+              22.974500000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_4_1",
+        "city": "Ahmedabad",
+        "sevi": 39.04,
+        "base_sevi": 39.04,
+        "base_lst_excess": 4.07,
+        "ghsl_height": 14.27,
+        "pm10_baseline": 253.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.60340000000001,
+              22.994500000000002
+            ],
+            [
+              72.6194,
+              22.994500000000002
+            ],
+            [
+              72.6194,
+              23.0105
+            ],
+            [
+              72.60340000000001,
+              23.0105
+            ],
+            [
+              72.60340000000001,
+              22.994500000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_4_2",
+        "city": "Ahmedabad",
+        "sevi": 33.44,
+        "base_sevi": 33.44,
+        "base_lst_excess": 7.86,
+        "ghsl_height": 14.87,
+        "pm10_baseline": 326.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.60340000000001,
+              23.0145
+            ],
+            [
+              72.6194,
+              23.0145
+            ],
+            [
+              72.6194,
+              23.0305
+            ],
+            [
+              72.60340000000001,
+              23.0305
+            ],
+            [
+              72.60340000000001,
+              23.0145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_4_3",
+        "city": "Ahmedabad",
+        "sevi": 67.69,
+        "base_sevi": 67.69,
+        "base_lst_excess": 7.97,
+        "ghsl_height": 12.13,
+        "pm10_baseline": 240.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.60340000000001,
+              23.0345
+            ],
+            [
+              72.6194,
+              23.0345
+            ],
+            [
+              72.6194,
+              23.0505
+            ],
+            [
+              72.60340000000001,
+              23.0505
+            ],
+            [
+              72.60340000000001,
+              23.0345
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Ahmedabad_WARD_4_4",
+        "city": "Ahmedabad",
+        "sevi": 59.08,
+        "base_sevi": 59.08,
+        "base_lst_excess": 8.36,
+        "ghsl_height": 13.18,
+        "pm10_baseline": 308.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.60340000000001,
+              23.0545
+            ],
+            [
+              72.6194,
+              23.0545
+            ],
+            [
+              72.6194,
+              23.0705
+            ],
+            [
+              72.60340000000001,
+              23.0705
+            ],
+            [
+              72.60340000000001,
+              23.0545
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_5_0",
+        "city": "Delhi NCR",
+        "sevi": 78.21,
+        "base_sevi": 78.21,
+        "base_lst_excess": 8.32,
+        "ghsl_height": 23.78,
+        "pm10_baseline": 221.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.26100000000001,
+              28.565900000000003
+            ],
+            [
+              77.277,
+              28.565900000000003
+            ],
+            [
+              77.277,
+              28.5819
+            ],
+            [
+              77.26100000000001,
+              28.5819
+            ],
+            [
+              77.26100000000001,
+              28.565900000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_5_1",
+        "city": "Delhi NCR",
+        "sevi": 27.42,
+        "base_sevi": 27.42,
+        "base_lst_excess": 5.5,
+        "ghsl_height": 12.41,
+        "pm10_baseline": 241.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.26100000000001,
+              28.585900000000002
+            ],
+            [
+              77.277,
+              28.585900000000002
+            ],
+            [
+              77.277,
+              28.6019
+            ],
+            [
+              77.26100000000001,
+              28.6019
+            ],
+            [
+              77.26100000000001,
+              28.585900000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_5_2",
+        "city": "Delhi NCR",
+        "sevi": 50.27,
+        "base_sevi": 50.27,
+        "base_lst_excess": 6.64,
+        "ghsl_height": 16.05,
+        "pm10_baseline": 246.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.26100000000001,
+              28.605900000000002
+            ],
+            [
+              77.277,
+              28.605900000000002
+            ],
+            [
+              77.277,
+              28.6219
+            ],
+            [
+              77.26100000000001,
+              28.6219
+            ],
+            [
+              77.26100000000001,
+              28.605900000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_5_3",
+        "city": "Delhi NCR",
+        "sevi": 84.25,
+        "base_sevi": 84.25,
+        "base_lst_excess": 5.06,
+        "ghsl_height": 15.52,
+        "pm10_baseline": 221.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.26100000000001,
+              28.6259
+            ],
+            [
+              77.277,
+              28.6259
+            ],
+            [
+              77.277,
+              28.6419
+            ],
+            [
+              77.26100000000001,
+              28.6419
+            ],
+            [
+              77.26100000000001,
+              28.6259
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_5_4",
+        "city": "Delhi NCR",
+        "sevi": 50.77,
+        "base_sevi": 50.77,
+        "base_lst_excess": 8.12,
+        "ghsl_height": 27.81,
+        "pm10_baseline": 254.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.26100000000001,
+              28.6459
+            ],
+            [
+              77.277,
+              28.6459
+            ],
+            [
+              77.277,
+              28.6619
+            ],
+            [
+              77.26100000000001,
+              28.6619
+            ],
+            [
+              77.26100000000001,
+              28.6459
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_6_0",
+        "city": "Delhi NCR",
+        "sevi": 61.71,
+        "base_sevi": 61.71,
+        "base_lst_excess": 5.85,
+        "ghsl_height": 22.83,
+        "pm10_baseline": 289.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.281,
+              28.565900000000003
+            ],
+            [
+              77.297,
+              28.565900000000003
+            ],
+            [
+              77.297,
+              28.5819
+            ],
+            [
+              77.281,
+              28.5819
+            ],
+            [
+              77.281,
+              28.565900000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_6_1",
+        "city": "Delhi NCR",
+        "sevi": 54.19,
+        "base_sevi": 54.19,
+        "base_lst_excess": 5.22,
+        "ghsl_height": 21.27,
+        "pm10_baseline": 197.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.281,
+              28.585900000000002
+            ],
+            [
+              77.297,
+              28.585900000000002
+            ],
+            [
+              77.297,
+              28.6019
+            ],
+            [
+              77.281,
+              28.6019
+            ],
+            [
+              77.281,
+              28.585900000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_6_2",
+        "city": "Delhi NCR",
+        "sevi": 54.81,
+        "base_sevi": 54.81,
+        "base_lst_excess": 7.34,
+        "ghsl_height": 16.12,
+        "pm10_baseline": 254.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.281,
+              28.605900000000002
+            ],
+            [
+              77.297,
+              28.605900000000002
+            ],
+            [
+              77.297,
+              28.6219
+            ],
+            [
+              77.281,
+              28.6219
+            ],
+            [
+              77.281,
+              28.605900000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_6_3",
+        "city": "Delhi NCR",
+        "sevi": 70.93,
+        "base_sevi": 70.93,
+        "base_lst_excess": 7.71,
+        "ghsl_height": 8.66,
+        "pm10_baseline": 309.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.281,
+              28.6259
+            ],
+            [
+              77.297,
+              28.6259
+            ],
+            [
+              77.297,
+              28.6419
+            ],
+            [
+              77.281,
+              28.6419
+            ],
+            [
+              77.281,
+              28.6259
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_6_4",
+        "city": "Delhi NCR",
+        "sevi": 62.71,
+        "base_sevi": 62.71,
+        "base_lst_excess": 5.22,
+        "ghsl_height": 22.44,
+        "pm10_baseline": 233.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.281,
+              28.6459
+            ],
+            [
+              77.297,
+              28.6459
+            ],
+            [
+              77.297,
+              28.6619
+            ],
+            [
+              77.281,
+              28.6619
+            ],
+            [
+              77.281,
+              28.6459
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_7_0",
+        "city": "Delhi NCR",
+        "sevi": 78.22,
+        "base_sevi": 78.22,
+        "base_lst_excess": 3.86,
+        "ghsl_height": 23.36,
+        "pm10_baseline": 245.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.301,
+              28.565900000000003
+            ],
+            [
+              77.317,
+              28.565900000000003
+            ],
+            [
+              77.317,
+              28.5819
+            ],
+            [
+              77.301,
+              28.5819
+            ],
+            [
+              77.301,
+              28.565900000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_7_1",
+        "city": "Delhi NCR",
+        "sevi": 36.42,
+        "base_sevi": 36.42,
+        "base_lst_excess": 8.44,
+        "ghsl_height": 8.16,
+        "pm10_baseline": 243.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.301,
+              28.585900000000002
+            ],
+            [
+              77.317,
+              28.585900000000002
+            ],
+            [
+              77.317,
+              28.6019
+            ],
+            [
+              77.301,
+              28.6019
+            ],
+            [
+              77.301,
+              28.585900000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_7_2",
+        "city": "Delhi NCR",
+        "sevi": 75.6,
+        "base_sevi": 75.6,
+        "base_lst_excess": 6.32,
+        "ghsl_height": 23.26,
+        "pm10_baseline": 329.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.301,
+              28.605900000000002
+            ],
+            [
+              77.317,
+              28.605900000000002
+            ],
+            [
+              77.317,
+              28.6219
+            ],
+            [
+              77.301,
+              28.6219
+            ],
+            [
+              77.301,
+              28.605900000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_7_3",
+        "city": "Delhi NCR",
+        "sevi": 72.06,
+        "base_sevi": 72.06,
+        "base_lst_excess": 6.68,
+        "ghsl_height": 10.88,
+        "pm10_baseline": 232.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.301,
+              28.6259
+            ],
+            [
+              77.317,
+              28.6259
+            ],
+            [
+              77.317,
+              28.6419
+            ],
+            [
+              77.301,
+              28.6419
+            ],
+            [
+              77.301,
+              28.6259
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_7_4",
+        "city": "Delhi NCR",
+        "sevi": 38.57,
+        "base_sevi": 38.57,
+        "base_lst_excess": 6.81,
+        "ghsl_height": 24.97,
+        "pm10_baseline": 206.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.301,
+              28.6459
+            ],
+            [
+              77.317,
+              28.6459
+            ],
+            [
+              77.317,
+              28.6619
+            ],
+            [
+              77.301,
+              28.6619
+            ],
+            [
+              77.301,
+              28.6459
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_8_0",
+        "city": "Delhi NCR",
+        "sevi": 31.96,
+        "base_sevi": 31.96,
+        "base_lst_excess": 8.09,
+        "ghsl_height": 18.96,
+        "pm10_baseline": 220.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.32100000000001,
+              28.565900000000003
+            ],
+            [
+              77.337,
+              28.565900000000003
+            ],
+            [
+              77.337,
+              28.5819
+            ],
+            [
+              77.32100000000001,
+              28.5819
+            ],
+            [
+              77.32100000000001,
+              28.565900000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_8_1",
+        "city": "Delhi NCR",
+        "sevi": 73.12,
+        "base_sevi": 73.12,
+        "base_lst_excess": 6.19,
+        "ghsl_height": 22.03,
+        "pm10_baseline": 278.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.32100000000001,
+              28.585900000000002
+            ],
+            [
+              77.337,
+              28.585900000000002
+            ],
+            [
+              77.337,
+              28.6019
+            ],
+            [
+              77.32100000000001,
+              28.6019
+            ],
+            [
+              77.32100000000001,
+              28.585900000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_8_2",
+        "city": "Delhi NCR",
+        "sevi": 66.57,
+        "base_sevi": 66.57,
+        "base_lst_excess": 4.73,
+        "ghsl_height": 16.81,
+        "pm10_baseline": 251.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.32100000000001,
+              28.605900000000002
+            ],
+            [
+              77.337,
+              28.605900000000002
+            ],
+            [
+              77.337,
+              28.6219
+            ],
+            [
+              77.32100000000001,
+              28.6219
+            ],
+            [
+              77.32100000000001,
+              28.605900000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_8_3",
+        "city": "Delhi NCR",
+        "sevi": 74.98,
+        "base_sevi": 74.98,
+        "base_lst_excess": 8.46,
+        "ghsl_height": 13.63,
+        "pm10_baseline": 307.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.32100000000001,
+              28.6259
+            ],
+            [
+              77.337,
+              28.6259
+            ],
+            [
+              77.337,
+              28.6419
+            ],
+            [
+              77.32100000000001,
+              28.6419
+            ],
+            [
+              77.32100000000001,
+              28.6259
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_8_4",
+        "city": "Delhi NCR",
+        "sevi": 82.7,
+        "base_sevi": 82.7,
+        "base_lst_excess": 6.05,
+        "ghsl_height": 13.52,
+        "pm10_baseline": 262.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.32100000000001,
+              28.6459
+            ],
+            [
+              77.337,
+              28.6459
+            ],
+            [
+              77.337,
+              28.6619
+            ],
+            [
+              77.32100000000001,
+              28.6619
+            ],
+            [
+              77.32100000000001,
+              28.6459
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_9_0",
+        "city": "Delhi NCR",
+        "sevi": 77.4,
+        "base_sevi": 77.4,
+        "base_lst_excess": 5.89,
+        "ghsl_height": 24.57,
+        "pm10_baseline": 188.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.34100000000001,
+              28.565900000000003
+            ],
+            [
+              77.357,
+              28.565900000000003
+            ],
+            [
+              77.357,
+              28.5819
+            ],
+            [
+              77.34100000000001,
+              28.5819
+            ],
+            [
+              77.34100000000001,
+              28.565900000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_9_1",
+        "city": "Delhi NCR",
+        "sevi": 33.64,
+        "base_sevi": 33.64,
+        "base_lst_excess": 6.75,
+        "ghsl_height": 14.76,
+        "pm10_baseline": 244.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.34100000000001,
+              28.585900000000002
+            ],
+            [
+              77.357,
+              28.585900000000002
+            ],
+            [
+              77.357,
+              28.6019
+            ],
+            [
+              77.34100000000001,
+              28.6019
+            ],
+            [
+              77.34100000000001,
+              28.585900000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_9_2",
+        "city": "Delhi NCR",
+        "sevi": 52.22,
+        "base_sevi": 52.22,
+        "base_lst_excess": 7.18,
+        "ghsl_height": 17.16,
+        "pm10_baseline": 204.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.34100000000001,
+              28.605900000000002
+            ],
+            [
+              77.357,
+              28.605900000000002
+            ],
+            [
+              77.357,
+              28.6219
+            ],
+            [
+              77.34100000000001,
+              28.6219
+            ],
+            [
+              77.34100000000001,
+              28.605900000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_9_3",
+        "city": "Delhi NCR",
+        "sevi": 26.54,
+        "base_sevi": 26.54,
+        "base_lst_excess": 5.41,
+        "ghsl_height": 21.1,
+        "pm10_baseline": 238.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.34100000000001,
+              28.6259
+            ],
+            [
+              77.357,
+              28.6259
+            ],
+            [
+              77.357,
+              28.6419
+            ],
+            [
+              77.34100000000001,
+              28.6419
+            ],
+            [
+              77.34100000000001,
+              28.6259
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": "Delhi NCR_WARD_9_4",
+        "city": "Delhi NCR",
+        "sevi": 28.52,
+        "base_sevi": 28.52,
+        "base_lst_excess": 8.14,
+        "ghsl_height": 17.3,
+        "pm10_baseline": 253.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.34100000000001,
+              28.6459
+            ],
+            [
+              77.357,
+              28.6459
+            ],
+            [
+              77.357,
+              28.6619
+            ],
+            [
+              77.34100000000001,
+              28.6619
+            ],
+            [
+              77.34100000000001,
+              28.6459
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

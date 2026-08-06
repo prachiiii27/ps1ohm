@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def build_feature_matrix(lst, albedo, net_rad, ndvi, ndbi, ndmi, ndvi_mean, albedo_mean, true_svf, z0, dist_water, dist_veg, c_g, bsi, fvc, pai, pop, road_density, ghsl_built):
+def build_feature_matrix(lst, albedo, net_rad, ndvi, ndbi, ndmi, ndvi_mean, albedo_mean, true_svf, z0, dist_water, dist_veg, c_g, bsi, fvc, pai, pop, road_density, ghsl_built, pm25, pm10, no2):
     features = {
         'LST_Celsius': lst.flatten(),
         'Albedo_Liang_S2': albedo.flatten(),
@@ -15,6 +15,9 @@ def build_feature_matrix(lst, albedo, net_rad, ndvi, ndbi, ndmi, ndvi_mean, albe
         'Albedo_Neighborhood_Mean': albedo_mean.flatten(),
         'Exponential_Decay_Water': dist_water.flatten(),
         'Exponential_Decay_Veg': dist_veg.flatten(),
-        'Thermal_Admittance_cG': c_g.flatten()
+        'Thermal_Admittance_cG': c_g.flatten(),
+        'PM25_Air_Pollution': pm25.flatten(),
+        'PM10_Air_Pollution': pm10.flatten(),
+        'NO2_Air_Pollution': no2.flatten()
     }
     return pd.DataFrame(features)
