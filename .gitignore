@@ -9,11 +9,6 @@ __pycache__/
 *.pyo
 
 # Geospatial & Raw Data
-*.tif
-*.tiff
-*.nc
-*.gpkg
-Ahmedabad/
 outputs/
 
 # OS Files
