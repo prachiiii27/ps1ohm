@@ -1,0 +1,21 @@
+# Environments
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Geospatial & Raw Data
+*.tif
+*.tiff
+*.nc
+*.gpkg
+Ahmedabad/
+outputs/
+
+# OS Files
+.DS_Store
+Thumbs.db

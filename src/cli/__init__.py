@@ -1,0 +1,1 @@
+from .run_grand_finale import run_pipeline
