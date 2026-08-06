@@ -414,9 +414,9 @@ st.markdown("Mathematical verification of the thermodynamics model evaluating Ah
 
 m1, m2, m3 = st.columns(3)
 with m1:
-    st.markdown("<div class='metric-card'><div class='metric-title'>Model Accuracy (R²)</div><div class='metric-value'>72.34%</div><div class='metric-desc'>Extremely high explanatory power on unseen spatial data using 17 thermodynamics variables.</div></div>", unsafe_allow_html=True)
+    st.markdown("<div class='metric-card'><div class='metric-title'>Model Accuracy (R²)</div><div class='metric-value'>72.75%</div><div class='metric-desc'>Extremely high explanatory power on unseen spatial data using 17 thermodynamics variables.</div></div>", unsafe_allow_html=True)
 with m2:
-    st.markdown("<div class='metric-card'><div class='metric-title'>Prediction Error (MAE)</div><div class='metric-value'>± 0.71 °C</div><div class='metric-desc'>Mean Absolute Error verifying sub-degree micro-climate modeling precision.</div></div>", unsafe_allow_html=True)
+    st.markdown("<div class='metric-card'><div class='metric-title'>Prediction Error (MAE)</div><div class='metric-value'>± 0.70 °C</div><div class='metric-desc'>Mean Absolute Error verifying sub-degree micro-climate modeling precision.</div></div>", unsafe_allow_html=True)
 with m3:
     st.markdown("<div class='metric-card'><div class='metric-title'>Top Heat Drivers (SHAP)</div><div class='metric-value'>Concrete & Moisture</div><div class='metric-desc'>Built Surface (46.6%) and NDMI (45.4%) mathematically proven as primary spatial drivers.</div></div>", unsafe_allow_html=True)
 

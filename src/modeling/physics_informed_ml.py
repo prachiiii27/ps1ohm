@@ -4,13 +4,13 @@ import numpy as np
 class PhysicsInformedHeatModel:
     def __init__(self):
         self.model = xgb.XGBRegressor(
-            n_estimators=800, 
-            learning_rate=0.02, 
+            n_estimators=1500, 
+            learning_rate=0.01, 
             max_depth=10,
-            subsample=0.85,
-            colsample_bytree=0.85,
-            min_child_weight=3,
-            gamma=0.1,
+            subsample=0.75,
+            colsample_bytree=0.8,
+            min_child_weight=2,
+            gamma=0.05,
             objective='reg:squarederror'
         )
     
