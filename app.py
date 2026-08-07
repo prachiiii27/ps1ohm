@@ -186,7 +186,7 @@ geo_data, df_base, df_cpcb = load_static_bundles(mtime)
 # =====================================================================
 # 4. 7-LEVER HYBRID COOLING ENGINE (INTERNATIONAL + INDIGENOUS DESI LEVERS)
 # =====================================================================
-def compute_ward_action_plan(df_wards: pd.DataFrame, budget_cr: float):
+def compute_ward_action_plan(df_wards: pd.DataFrame, budget_cr: float, scenario_params: dict = None):
     """
     Computes ward-wise intervention targets, budgets, and net temperature reductions
     across SEVEN policy levers combining International Benchmarks and Budget-Friendly Desi Interventions:
@@ -219,16 +219,25 @@ def compute_ward_action_plan(df_wards: pd.DataFrame, budget_cr: float):
     weight = (df['base_sevi'] / df['base_sevi'].max()) ** 1.5
     v_norm = (df['base_sevi'] / df['base_sevi'].max()) ** 0.8
     
-    # 1. SEVEN INTERVENTION TARGETS (Scaled by ward vulnerability and budget)
-    # International Tier
-    df['white_roof_target_pct'] = np.minimum(25.0, np.round(6.0 + 14.0 * scale * v_norm, 1))
-    df['tree_planting_target_pct'] = np.minimum(22.0, np.round(5.0 + 13.0 * scale * v_norm, 1))
-    df['green_roof_target_pct'] = np.minimum(12.0, np.round(2.0 + 8.0 * scale * v_norm, 1))
-    df['misting_stations_count'] = np.minimum(18, np.round(3 + 10 * scale * v_norm).astype(int))
-    df['cool_pavement_target_pct'] = np.minimum(18.0, np.round(3.0 + 10.0 * scale * v_norm, 1))
-    # Indigenous Budget-Friendly Desi Tier (High Impact, Ultra-Low Cost for Indian Housing)
-    df['chuna_mosaic_roof_pct'] = np.minimum(35.0, np.round(12.0 + 20.0 * scale * v_norm, 1))
-    df['amrit_sarovar_count'] = np.minimum(6, np.round(1 + 4 * scale * v_norm).astype(int))
+    # 1. SEVEN INTERVENTION TARGETS (Scaled by ward vulnerability and budget, or overridden by scenario)
+    if scenario_params:
+        df['white_roof_target_pct'] = scenario_params['white_roof']
+        df['tree_planting_target_pct'] = scenario_params['tree_planting']
+        df['green_roof_target_pct'] = scenario_params['green_roof']
+        df['misting_stations_count'] = scenario_params['misting']
+        df['cool_pavement_target_pct'] = scenario_params['cool_pavement']
+        df['chuna_mosaic_roof_pct'] = scenario_params['chuna_mosaic']
+        df['amrit_sarovar_count'] = scenario_params['amrit_sarovar']
+    else:
+        # International Tier
+        df['white_roof_target_pct'] = np.minimum(25.0, np.round(6.0 + 14.0 * scale * v_norm, 1))
+        df['tree_planting_target_pct'] = np.minimum(22.0, np.round(5.0 + 13.0 * scale * v_norm, 1))
+        df['green_roof_target_pct'] = np.minimum(12.0, np.round(2.0 + 8.0 * scale * v_norm, 1))
+        df['misting_stations_count'] = np.minimum(18, np.round(3 + 10 * scale * v_norm).astype(int))
+        df['cool_pavement_target_pct'] = np.minimum(18.0, np.round(3.0 + 10.0 * scale * v_norm, 1))
+        # Indigenous Budget-Friendly Desi Tier (High Impact, Ultra-Low Cost for Indian Housing)
+        df['chuna_mosaic_roof_pct'] = np.minimum(35.0, np.round(12.0 + 20.0 * scale * v_norm, 1))
+        df['amrit_sarovar_count'] = np.minimum(6, np.round(1 + 4 * scale * v_norm).astype(int))
     
     # 2. SCIENTIFICALLY CALIBRATED WARD-WIDE SPATIAL MEAN COOLING (°C)
     # Reflects spatial areal averages across the entire municipal ward footprint (~1,000 Acres)
@@ -314,13 +323,34 @@ city_selector = st.sidebar.selectbox(
     index=0
 )
 
-budget_cr = st.sidebar.slider(
-    "2. Capital Budget Allocation (₹ Crores):",
-    min_value=1.0,
-    max_value=50.0,
-    value=10.0,
-    step=0.5
+control_mode = st.sidebar.radio(
+    "2. Simulation Mode:",
+    options=["Budget Allocation (Auto)", "Scenario Modeling (Manual)"],
+    index=0
 )
+
+budget_cr = 10.0
+scenario_params = None
+
+if control_mode == "Budget Allocation (Auto)":
+    budget_cr = st.sidebar.slider(
+        "Capital Budget Allocation (₹ Crores):",
+        min_value=1.0,
+        max_value=50.0,
+        value=10.0,
+        step=0.5
+    )
+else:
+    st.sidebar.markdown("### Manual Intervention Targets")
+    scenario_params = {
+        'chuna_mosaic': st.sidebar.slider("1. Lime/Mosaic Roofs (%)", 0.0, 100.0, 15.0, 1.0),
+        'amrit_sarovar': st.sidebar.slider("2. Water Ponds (Count per Ward)", 0, 20, 2, 1),
+        'white_roof': st.sidebar.slider("3. White Cool Roofs (%)", 0.0, 100.0, 10.0, 1.0),
+        'tree_planting': st.sidebar.slider("4. Tree Planting (%)", 0.0, 100.0, 10.0, 1.0),
+        'green_roof': st.sidebar.slider("5. Green Roofs (%)", 0.0, 100.0, 5.0, 1.0),
+        'misting': st.sidebar.slider("6. Misting Stations (Count)", 0, 50, 5, 1),
+        'cool_pavement': st.sidebar.slider("7. Cool Pavement (%)", 0.0, 100.0, 5.0, 1.0)
+    }
 
 map_mode = st.sidebar.radio(
     "3. Map Display Metric:",
@@ -346,7 +376,7 @@ st.sidebar.caption("Data Source: ISRO/NASA EOS Telemetry & CPCB CAAQMS Station N
 df_city = df_base[df_base['city'] == city_selector].copy()
 if df_city.empty:
     df_city = df_base[df_base['city'].str.contains(city_selector.split()[0], case=False, na=False)].copy()
-df_active = compute_ward_action_plan(df_city, budget_cr)
+df_active = compute_ward_action_plan(df_city, budget_cr, scenario_params=scenario_params)
 
 # =====================================================================
 # 6. EXECUTIVE HEADER & METHODOLOGY OVERVIEW
