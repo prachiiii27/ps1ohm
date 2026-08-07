@@ -16,57 +16,57 @@ flowchart TD
 
     %% 1. Data Engineering
     subgraph Data["1. High-Resolution Data Engineering"]
-        A1[Raw Datasets<br/>Sentinel-2, Landsat, GHSL] ::: data
-        A2[Discard 10km Weather Data<br/>Avoid zero-variance resolution mismatches] ::: data
-        A3[Feature Engineering<br/>Extract 14 Thermodynamic Vectors] ::: data
-        
+        A1[Raw Datasets<br/>Sentinel-2, Landsat, GHSL]
+        A2[Discard 10km Weather Data<br/>Avoid zero-variance resolution mismatches]
+        A3[Feature Engineering<br/>Extract 14 Thermodynamic Vectors]
         A1 --> A2 --> A3
     end
+    class A1,A2,A3 data;
 
     %% 2. Machine Learning
     subgraph ML["2. Physics-Informed Machine Learning"]
-        B1[The Twin Problem<br/>Drop perfectly correlated NDBI/Net Radiation] ::: ml
-        B2[Train XGBoost Engine<br/>Predict 10m Micro-Scale LST] ::: ml
-        
+        B1[The Twin Problem<br/>Drop perfectly correlated NDBI/Net Radiation]
+        B2[Train XGBoost Engine<br/>Predict 10m Micro-Scale LST]
         A3 --> B1 --> B2
     end
+    class B1,B2 ml;
 
     %% 3. Explainability (SHAP)
     subgraph SHAP["3. SHAP Game-Theory Attribution"]
-        C1[Calculate SHAP Values<br/>Crack open the ML black box] ::: shap
-        C2[Feature Importance<br/>Rank top drivers: GHSL Built, NDMI, NDVI] ::: shap
-        C3[Actionable Sensitivity Analysis<br/>e.g. +10% Albedo = 2.10°C Drop] ::: shap
-        
+        C1[Calculate SHAP Values<br/>Crack open the ML black box]
+        C2[Feature Importance<br/>Rank top drivers: GHSL Built, NDMI, NDVI]
+        C3[Actionable Sensitivity Analysis<br/>e.g. +10% Albedo = 2.10°C Drop]
         B2 --> C1 --> C2 & C3
     end
+    class C1,C2,C3 shap;
 
     %% 4. Vulnerability Mapping
     subgraph SEVI["4. Socio-Economic Vulnerability (SEVI)"]
-        D1[Map Physical Heat<br/>LST Hotspots via Tricontourf Interpolation] ::: sevi
-        D2[Map Human Sensitivity<br/>GHSL Population Density / Concrete Trap] ::: sevi
-        D3[Calculate SEVI Score<br/>Exposure × Sensitivity ÷ Adaptive Capacity] ::: sevi
-        
+        D1[Map Physical Heat<br/>LST Hotspots via Tricontourf Interpolation]
+        D2[Map Human Sensitivity<br/>GHSL Population Density / Concrete Trap]
+        D3[Calculate SEVI Score<br/>Exposure × Sensitivity ÷ Adaptive Capacity]
         B2 --> D1
         D1 & D2 --> D3
     end
+    class D1,D2,D3 sevi;
 
     %% 5. NSGA-III Optimization
     subgraph Optim["5. The NSGA-III Supercomputing Optimizer"]
-        E1[Define Conflicting Objectives<br/>Max LST Drop, Max SEVI Drop, Min Capex] ::: optim
-        E2[Run Evolutionary Algorithm<br/>Simulate thousands of 'budgets'] ::: optim
-        E3[Output 3D Pareto Front<br/>Mathematically perfect 7-Lever allocation] ::: optim
-        
+        E1[Define Conflicting Objectives<br/>Max LST Drop, Max SEVI Drop, Min Capex]
+        E2[Run Evolutionary Algorithm<br/>Simulate thousands of 'budgets']
+        E3[Output 3D Pareto Front<br/>Mathematically perfect 7-Lever allocation]
         C3 & D3 --> E1 --> E2 --> E3
     end
+    class E1,E2,E3 optim;
 
     %% 6. Interactive Deployment
     subgraph UI["6. The Live Policy Dashboard"]
-        F1[Streamlit Simulation Engine<br/>Interactive sliders for policy changes] ::: ui
-        F2[Dynamic Recalculation<br/>AI recalculates heat & SEVI instantly] ::: ui
-        F3[City Deliverable<br/>Live OS for Mayoral budget planning] ::: ui
-        
+        F1[Streamlit Simulation Engine<br/>Interactive sliders for policy changes]
+        F2[Dynamic Recalculation<br/>AI recalculates heat & SEVI instantly]
+        F3[City Deliverable<br/>Live OS for Mayoral budget planning]
         E3 --> F1 --> F2 --> F3
     end
+    class F1,F2,F3 ui;
 ```
 
 ---
